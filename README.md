@@ -1,4 +1,6 @@
 # Understanding-Circuit-Design-DLD
+
+#PART 1 Basic CKTS
 Functions:
 F1=F(w, x, y, z) = m(0, 2, 4, 5, 6, 7, 8, 10, 13, 15) <br />  
 F2=F(a,b,c,d) = M(4,7,8,11).D(1,2,13,14)<br /> 
@@ -17,3 +19,4 @@ F5=(a’+b’c’+b’c+d’)((a’b+c’d)+ab’+c’d’)ab’+(d+ac(bd’+ bd
 For each of the above expressions, what is the minimum FAN-IN for realizing a 2 level circuit.<br /> 
 For each of the above expressions, what is the minimum number of levels required, when using the utmost 3 FAN-IN gates?<br /> 
 
+#PART 2 MuX DeMuX
