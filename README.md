@@ -20,3 +20,24 @@ For each of the above expressions, what is the minimum FAN-IN for realizing a 2 
 For each of the above expressions, what is the minimum number of levels required, when using the utmost 3 FAN-IN gates?<br /> 
 
 #PART 2 MuX DeMuX
+<br /> 
+1. Design the following multiplexers using only NAND gates.<br /> 
+Design a 2x1 mux <br /> 
+Design a 4x1 mux<br /> 
+Design a 8x1 mux<br /> 
+2. Design a 32x1 mux using the hierarchical approach by using the below mux models. Use the base mux as a 2x1 model. <br /> 
+Use only 4x1 mux (2 points)<br /> 
+Use only 8x1 mux (2 points)<br /> 
+						
+3. Realize the given two boolean expressions using a multiplexer <br /> 
+BE1: F(U, V, W, X) = (UV’ + U’V)W’<br /> 
+BE2: F(U, V, W, X, Y) = m(0, 2, 4, 7, 8, 10, 12, 14, 16, 18, 20, 23, 24, 25, 26, 27, 28) <br /> 
+a. Straight-forward approach ( based on the number of input variables)<br /> 
+b. Limitations on type of mux. Use a mux with the number of select lines that is at least one less than the number of variables in the expression. <br /> 
+
+4. Realize the below two boolean expressions using a de-multiplexer.  <br /> 
+BE1: F(U, V, W, X) = (UV’ + U’V)W’<br /> 
+BE2: F(U, V, W, X, Y) = m(0, 2, 4, 7, 8, 10, 12, 14, 16, 18, 20, 23, 24, 25, 26, 27, 28) <br /> 
+a. Straight-forward approach ( based on the number of input variables)<br /> 
+b. Limitations on type of mux. Use a demux with the number of select lines that is at least one less than the number of variables in the expression. <br /> 
+
